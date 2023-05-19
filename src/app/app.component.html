@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./app.component.css">
   <title>Weather App</title>
 </head>
-<body class="body" [ngClass]="isHot ? 'conh' : 'conc' ">
+<body class="body" [ngClass]="isHot ? 'isHot' : 'isCold' ">
   <div class="flex justify-center items-center">
     <div [ngClass]="isHot ? 'hot' : 'cold' " class="mt-[20px] w-[400px] p-6 min-h-[600px] rounded-md text-center">
         <input
