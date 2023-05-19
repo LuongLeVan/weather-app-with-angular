@@ -26,7 +26,7 @@
         class="w-full mt-5 h-[150px] shadow-md rounded-[10px] flex justify-center items-center"
       >
         <div class="font-[800] text-[62px] text-white text-shadow drop-shadow-md" >
-          <span>{{(infor.main.temp - 273).toFixed() }} ℃</span>
+          <span>{{(infor.main.temp - 273).toFixed() }}℃</span>
         </div>
       </div>
       <span class="block text-center text-white font-[700] text-[52px] mt-2"
@@ -35,21 +35,21 @@
       <div class="flex justify-around items-center mt-16">
         <div class="text-center">
           <span class="block text-white text-base">
-            <i class="far fa-eye"></i>
+            <img class="w-7 h-7 ml-3" src="/assets/img/view.png" alt="">
           </span>
           <span class="block text-white">{{infor.visibility}}m</span>
         </div>
   
         <div class="text-center">
           <span class="block text-white text-base">
-            <i class="fas fa-wind"></i>
+            <img class="ml-3 w-7 h-7" src="/assets/img/wind.png" alt="">
           </span>
           <span class="block text-white">{{infor.wind.speed}}m/s</span>
         </div>
   
         <div class="text-center">
           <span class="block text-white text-base">
-            <i class="fas fa-cog"></i>
+            <img class="w-7 h-7" src="/assets/img/gear.png" alt="">
           </span>
           <span class="block text-white">{{infor.main.humidity}}%</span>
         </div>
