@@ -1,0 +1,26 @@
+.cold{
+    background: url('/assets/img/cold.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hot{
+    background: url('/assets/img/hot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conc{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('/assets/img/cold.png') no-repeat center/cover;
+}
+.conh{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('/assets/img/hot.png') no-repeat center/cover;
+}
